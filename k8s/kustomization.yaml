@@ -1,0 +1,8 @@
+resources:
+    - service-account.yml
+    - a-deployment.yml
+    - a-service.yml
+    - b-deployment.yml
+    - b-service.yml
+    - c-deployment.yml
+    - c-service.yml
