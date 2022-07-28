@@ -19,8 +19,10 @@ This will deploy 3 microservices
 
 You can access both service B and C form service a
 
-    http://LoadbalancerIP/service/b
-    http://LoadbalancerIP/service/c
+    kubectl get svc service-a   #### get the external ip
+
+    http://externalIP/service/b
+    http://externalIP/service/c
 
 
 ################################################################################
